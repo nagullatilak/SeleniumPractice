@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All test Suite" parallel="tests" thread-count="2">
+    <parameter name="url" value="https://www.toolsqa.com/"/>
+    <listeners>
+        <listener class-name="test.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Personal Loan">
+        <classes>
+                <class name = "test.TestNg"/>
+                <class name = "test.First"/>
+                <class name="test.HomeLoan"></class>
+        </classes>
+    </test>
+    <test name = "Car Loan">
+        <classes>
+            <class name="test.CarLoan">
+                <methods>
+                    <exclude name="mobile.*"></exclude>
+                   <!-- <include name="mobileLoginCarLoan"></include>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

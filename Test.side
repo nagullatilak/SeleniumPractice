@@ -1,0 +1,148 @@
+{
+  "id": "96663eb9-1fb5-4a30-9336-3c02274d4f8f",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "515aa7f0-9fd9-4d49-82f9-9149fbc4c896",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "f509cf0c-653e-429f-9d30-ffc6e66c3afa",
+    "name": "FirstTest",
+    "commands": [{
+      "id": "03e7fe6c-89a5-4be7-8cf3-034a3919f7f4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a429cad-e4ec-4efb-88f1-dd05dc16d50a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "646x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34827d9f-081c-4a83-a7be-f1779208c3c9",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e47ad582-6717-4cd9-9a9e-6a5c3da73a27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LLD4me",
+      "targets": [
+        ["css=.LLD4me", "css:finder"],
+        ["xpath=//body/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "833dedb7-cd59-414f-9c28-f90d06964939",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "480b1dc4-e7f5-46c8-b081-488cfabc7ad4",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Java Tu"
+    }, {
+      "id": "81e56827-18f8-482b-9130-72c7666425a9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "de9dea81-3292-44c7-8bc3-369fce7480c4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "08d2204e-df2b-41e5-a9b6-2e616b00bb94",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "facd4579-504c-4a9a-a9f7-bd473788d6a3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Videos",
+      "targets": [
+        ["linkText=Videos", "linkText"],
+        ["css=.hdtb-mitem:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Videos')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=java+tutorialspoint&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjs68yhq5nyAhXGH7cAHUWrDUoQ_AUoAXoECAEQAw')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Videos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fff0f3db-96fe-4d01-a4b1-471d6c821d64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(7) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(7) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[4]/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Javascript Tutorial - Tutorialspoint')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "74191d2b-dabf-412e-8196-95d54412db02",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["515aa7f0-9fd9-4d49-82f9-9149fbc4c896"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

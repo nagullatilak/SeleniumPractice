@@ -1,0 +1,178 @@
+{
+  "id": "3290975d-fc9e-4259-81d9-ab38e7686edf",
+  "version": "2.0",
+  "name": "ManualTest",
+  "url": "https://www.google.co.in",
+  "tests": [{
+    "id": "8bcffb13-bbb9-4d6e-80d2-a22807de1172",
+    "name": "SearchTest",
+    "commands": [{
+      "id": "3dfc63a4-4cc8-41de-9dfd-c8bc091e6d35",
+      "comment": "",
+      "command": "open",
+      "target": " /",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fa05af0-151e-4c58-9254-466242467d31",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "javaTpointJavaFX tutorial"
+    }, {
+      "id": "3d7708c2-ba6e-4d30-809d-eeb50f72d87c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=btnK",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "31aa07d4-d342-42b0-b09f-365a8d7263d0",
+    "name": "Manual2",
+    "commands": [{
+      "id": "80d01e4b-05f4-42d6-8033-e95959e26f25",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b3cb66a-a83e-45ca-945a-9785fcd117c0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "646x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c4ab6f2-744e-45b5-b562-dcc777b65144",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4be11d2e-5d8a-430f-87a2-cce8c9d3483b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "51f016b1-cf94-4478-ae4e-28c25d49b035",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "aa52e0d4-7ff8-43b4-a902-b35aa5c2ccc2",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "java tutorialspoint"
+    }, {
+      "id": "fa51fd59-df7f-4df1-b4c9-dc137fdffc71",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "74d8925b-2944-4a13-9d91-9431a255ea96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.eKjLze .LC20lb",
+      "targets": [
+        ["css=.eKjLze .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Java Tutorial - Tutorialspoint')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f42e8068-8840-46de-911f-d894e50a17b9",
+    "name": "LogInTest",
+    "commands": [{
+      "id": "c149fdf2-5ec7-47d2-ae6e-05cee407af5e",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.rediff.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81e7f7d9-ede8-4124-811d-069ad9fe531a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "link=Sign in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e06f3fff-c8a6-4e2b-bac2-13474434d077",
+      "comment": "",
+      "command": "type",
+      "target": "id=login1",
+      "targets": [],
+      "value": "Tilak"
+    }, {
+      "id": "eb5204d8-2d32-4a85-80b5-e660741dc360",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "password"
+    }, {
+      "id": "f3ab8ef6-69a7-499a-ab0f-42c1e7f429c4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=proceed",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9655120c-4e56-435a-a09d-3d0d332e1bff",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=div_login_error",
+      "targets": [],
+      "value": "Temporary error occured[#5001], please try again."
+    }]
+  }],
+  "suites": [{
+    "id": "ef40e147-0bf5-4523-87a7-895817370329",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.com/", "https://www.google.co.in/"],
+  "plugins": []
+}
